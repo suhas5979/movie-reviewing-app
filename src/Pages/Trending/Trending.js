@@ -5,9 +5,9 @@ import SingleContent from "../../components/SingleContent/SingleContent";
 import CustomPagination from "../../components/Pagination/CustomPagination";
 import Chatbot from "react-chatbot-kit";
 
-import { config } from "../../components/chatbot/config";
-import { MessageParser } from "../../components/chatbot/config";
-import { ActionProvider } from "../../components/chatbot/config";
+import config from "../../components/docsbot/config";
+import  MessageParser  from "../../components/docsbot/MessageParser";
+import  ActionProvider  from "../../components/docsbot/ActionProvider";
 import "react-chatbot-kit/build/main.css";
 
 const Trending = () => {
