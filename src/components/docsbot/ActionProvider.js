@@ -6,7 +6,7 @@ class ActionProvider {
 
   handleMessageParserDocs = () => {
     const messages = this.createChatBotMessage(
-      "Answer 1",
+      "Click on the movie that you want to review and then enter rating and reviews.",
       { widget: "Question 1", withAvatar: true }
     );
 
@@ -16,7 +16,7 @@ class ActionProvider {
   handleActionProviderDocs = () => {
     const messages = [
       this.createChatBotMessage(
-        "Answer 2",
+        "Go to Search Tab Located on bottom navigation bar, Enter movie tirle you want to search, press enter and choose options from Movie and Tv Series.",
         { widget: "actionProviderDocs", withAvatar: true }
       ),
     ];
@@ -26,7 +26,7 @@ class ActionProvider {
 
   handleConfigDocs = () => {
     const messages = this.createChatBotMessage(
-      "Answer 3",
+      "Select movie that you want to see the cast of movie then click on that movie the modal will pop up and Carousel contains all casts from movie.",
       { widget: "config", withAvatar: true }
     );
 
@@ -35,7 +35,7 @@ class ActionProvider {
 
   handleWidgetDocs = () => {
     const messages = this.createChatBotMessage(
-      "Answer 4",
+      "Please make sure you are logged in.",
       { widget: "widget", withAvatar: true }
     );
 

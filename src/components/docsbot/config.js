@@ -45,7 +45,7 @@ const config = {
       mapStateToProps: ["gist"],
     },
     {
-      widgetName: "Question 1",
+      widgetName: "Question 11",
       widgetFunc: (props) => <MessageParserDocs {...props} />,
       mapStateToProps: ["gist", "infoBox"],
     },
